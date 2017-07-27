@@ -1,0 +1,199 @@
+/* FONTS ------------------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css?family=Lemon|Nosifer|Permanent+Marker');
+
+
+/* UNIVERSAL --------------------------------------------------------------------- */
+a {
+text-decoration: none;
+color: #000;
+
+}
+
+/* ------------------------------------------------------------------------------- */
+
+
+/* HEADER STYLES ----------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------- */
+
+/* Website Background---------------------------------------------------*/
+
+body {
+ /*  background-image: url("../img/paintbrush.jpg");
+   background-attachment: fixed;
+   background-color: rgb(169,169,169); 
+   background-size: cover; */
+    
+}
+
+
+
+/* --------------------Top Of Website------------------------------------------------- */
+
+#Maintitle1 {
+    text-shadow: 8px 5px #000;
+    font-size: 90px;
+    font-family: 'Nosifer', cursive;
+    display: block;
+    border: 10px solid #000;
+    border-radius: 30px;
+    background-image: url("../img/headerwall.jpg"); 
+    background-size: cover;
+    color: #0000ff;
+    text-align: center; 
+    background-color: #000;
+    
+}
+
+span {
+    text-shadow: 3px 10px #000;
+    color: #ffff00;    
+}
+
+#MainTabs {
+    float: right;
+    position: relative;    
+    bottom: 100px;
+    right: 35px;
+    
+}
+
+li {
+    display: inline;
+    margin: 5px;
+    
+}
+
+#nav {
+  border: 5px solid #000;
+  background-color: #fff;
+  font-family: 'Permanent Marker', cursive;
+  border-radius: 20px 10px 20px 10px;
+  padding: 15px;
+  color: #000;
+}
+
+#nav:hover {
+  color: #0000cc;
+  background-color: #000;
+}
+
+
+
+/* -----------------------Center Of Website---------------------------------------------------- */
+
+#slogan {
+    position: relative;
+    left: 150px;
+    top: 35px;
+    text-align: center;
+    color: #ff0000;
+    text-shadow: 2px 4px #000;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#sidebar {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 130px;
+    
+}
+
+.tab {
+    font-family: 'Permanent Marker', cursive;
+    border: 3px solid #000;
+    border-radius: 0px 0px 20px 20px;
+    padding: 25px;
+}
+
+.tab:hover {
+    background-image: url("../img/Orange.png");    
+}
+
+
+
+/*----------------------- Column Section----------------------------------- */
+
+.column {
+    border: 2px ridge #000;
+    border-radius: 25px;
+    width: 30%;
+    height: 400px;
+    float: left;
+    position: relative;
+    left: 50px;
+    padding: 0px 10px;
+    overflow: auto;
+}
+
+.column p {
+    text-align: justify;
+    
+}
+
+button {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+
+#ReadMore1 {
+    background-color: #000;
+    color: #0000cc;
+  /* background-image: url("img/"); */
+    font-family: 'Permanent Marker', cursive;
+}
+
+#LeftPic {
+   display: block;
+   border: 3px solid #000;
+   border-radius: 20px;
+   width: 260px;
+   margin-left: 20%;
+}
+
+#ReadMore2 {
+    background-color: #000;
+    color: #0000cc; 
+    font-family: 'Permanent Marker', cursive;
+}
+
+#CenterPic {
+   display: block;
+   border: 3px solid #000;
+   border-radius: 20px;
+   width: 260px;
+   margin-left: 20%; 
+}
+
+#ReadMore3 {
+    background-color: #000;
+    color: #0000cc; 
+    font-family: 'Permanent Marker', cursive;
+}
+
+#RightPic {
+   display: block;
+   border: 3px solid #000;
+   border-radius: 20px;
+   width: 260px;
+   margin-left: 20%;
+}    
+
+    
+    
+
+  
+    
+
+
+
+
+
+
+
+
+
+    
